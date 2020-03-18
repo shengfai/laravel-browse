@@ -1,0 +1,20 @@
+{
+    "name": "shengfai\/laravel-browse",
+    "description": "A very simple browse logger to monitor your website or application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shengfai",
+            "email": "shengfai@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shengfai\\LaravelBrowse\\": "src"
+        }
+    }
+}
