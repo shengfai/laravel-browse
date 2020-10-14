@@ -17,6 +17,8 @@ class CreateBrowseablesTable extends Migration
             $table->bigIncrements('id');
             $table->morphs('browseable');
             $table->unsignedTinyInteger('type')->default(1);
+            $table->ipAddress('ip')->nullable();
+            $table->string('user_agent', 1024)->nullable();
             $table->timestamps();
         });
     }
